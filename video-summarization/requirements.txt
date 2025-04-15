@@ -1,0 +1,12 @@
+distro==1.7.0
+../langchain-integrations/langchain-videochunk
+langchain_community
+optimum-intel@git+https://github.com/huggingface/optimum-intel.git
+nncf
+openvino-genai
+timm
+einops
+decord
+fastapi
+uvicorn
+requests
