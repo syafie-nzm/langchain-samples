@@ -1,4 +1,3 @@
-openvino==2024.6.0
 ../langchain-integrations/langchain-openvino-asr
 ../langchain-integrations/langchain-openai-tts
 faiss-cpu==1.10.0

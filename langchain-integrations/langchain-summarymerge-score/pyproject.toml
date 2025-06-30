@@ -3,9 +3,9 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "langchain-videochunk"
-version = "0.1.1"
-description = "An integration package connecting VideoChunkLoader and LangChain"
+name = "langchain-summarymerge-score"
+version = "0.2.0"
+description = "An integration package connecting SummaryMergeScore and LangChain"
 authors = []
 readme = "README.md"
 repository = "https://github.com/langchain-ai/langchain"
@@ -15,12 +15,20 @@ license = "MIT"
 disallow_untyped_defs = "True"
 
 [tool.poetry.urls]
-"Source Code" = "https://github.com/langchain-ai/langchain/tree/master/libs/partners/videochunk"
-"Release Notes" = "https://github.com/langchain-ai/langchain/releases?q=tag%3A%22videochunk%3D%3D0%22&expanded=true"
+"Source Code" = "https://github.com/langchain-ai/langchain/tree/master/libs/partners/summarymerge-score"
+"Release Notes" = "https://github.com/langchain-ai/langchain/releases?q=tag%3A%22summarymerge-score%3D%3D0%22&expanded=true"
 
 [tool.poetry.dependencies]
 python = ">=3.9,<4.0"
 langchain-core = "^0.3.15"
+langchain-huggingface = "^0.1.2"
+fastapi = "^0.115.12"
+uvicorn = "^0.34.2"
+requests = "^2.32.3"
+langchain-community = "^0.3.22"
+transformers = "4.52.4"
+torch = "^2.7.0"
+torchvision = "^0.22.0"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "T201"]
