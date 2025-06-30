@@ -58,3 +58,4 @@ conda activate langchain_qna_env
 echo 'y' | conda install pip
 
 pip install -r requirements.txt
+pip install ../langchain-integrations/langchain-openvino-asr
