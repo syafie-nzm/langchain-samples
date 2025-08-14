@@ -1,4 +1,4 @@
-# ../langchain-integrations/langchain-openvino-asr
+../langchain-integrations/langchain-openvino-asr
 ../langchain-integrations/langchain-openai-tts
 faiss-cpu==1.10.0
 pdfminer.six==20240706
