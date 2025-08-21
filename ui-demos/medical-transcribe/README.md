@@ -1,3 +1,6 @@
+# Medical Transcribe demo
+![pipeline_diagram](assets/pipeline_diagram.png)
+
 ## Whisper ASR model serving (Openvino Whisper.cpp)
 ### Install and setup OpenVINO and Whisper.cpp (recommended OpenVINO 2024.6)
 ```bash
@@ -28,4 +31,4 @@ bash run-llama-ovms.sh
 ```bash
 bash run-streamlit.sh
 ```
-Can access the demo at `http://localhost:8080`
+Can access the demo at `http://localhost:8080`. Feel free to use the audio sample `samples/sample.wav` and upload in the demo, or you can record a simulation of medical checkup qna. 
